@@ -10,8 +10,7 @@ def thread_function(i):
         count = count + 1
         print("Start thread", i, "count =", count)
         
-    with lock_count
-        count2 = count2 + count
+
     j=0
     for _ in range(1000000):
         j=j+1
@@ -22,7 +21,7 @@ def thread_function(i):
 
 thlist=[]
 count = 0
-count2 = 1234
+
 N = 10
 lock_count = threading.Lock()
 for i in range(N):
